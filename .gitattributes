@@ -5,13 +5,7 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
-shapefiles/*
 *.html filter=lfs diff=lfs merge=lfs -text
-data/*
-maps/*
-data/charterschoolswithdistricts.html filter=lfs diff=lfs merge=lfs -text
-data/charterschoolswithdistrictsCA.html filter=lfs diff=lfs merge=lfs -text
-data/folium_unisd_whites.html filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.cpg filter=lfs diff=lfs merge=lfs -text
 *.dbf filter=lfs diff=lfs merge=lfs -text
@@ -20,3 +14,6 @@ data/folium_unisd_whites.html filter=lfs diff=lfs merge=lfs -text
 *.sbx filter=lfs diff=lfs merge=lfs -text
 *.xml filter=lfs diff=lfs merge=lfs -text
 *.shx filter=lfs diff=lfs merge=lfs -text
+data/ filter=lfs diff=lfs merge=lfs -text
+maps/ filter=lfs diff=lfs merge=lfs -text
+shapefiles/ filter=lfs diff=lfs merge=lfs -text
